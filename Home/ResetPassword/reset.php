@@ -1,7 +1,7 @@
 <?php
 session_start();
-if(isset($_SESSION['reset']))
-include '../Configurations/connection.php';
+ 
+include '../../Configurations/connection.php';
 
 $resetuser=$_REQUEST['user'];
 
@@ -15,6 +15,8 @@ if($db->num_rows>0){
       header("location:./reset.html");
   }
   else{
+    $_SESSION['resetemail']=$resetuser;
+
    header("location:./passreset.html");
   }
 

@@ -14,8 +14,8 @@ $passcode=$_REQUEST['password'];
 $hash=password_hash($passcode,PASSWORD_DEFAULT);
 $userid=uniqid();
 
-$sql="INSERT INTO patients(fname,lname,dob,gender,location,email,phone,password)
-                  VALUES('$firstname','$lastname','$DOB','$sex','$area','$mail','$phone','$hash')";
+$sql="INSERT INTO patients(fname,lname,dob,gender,location,email,phone,password,uid)
+                  VALUES('$firstname','$lastname','$DOB','$sex','$area','$mail','$phone','$hash','$userid')";
 
 if(mysqli_query($con,$sql)){
  echo "data inserted";

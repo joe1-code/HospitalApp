@@ -1,5 +1,5 @@
 <?php
-include '../Configurations/connection.php';
+include '../../Configurations/connection.php';
 
 $user=$_REQUEST['username'];
 $passcode=$_REQUEST['password'];

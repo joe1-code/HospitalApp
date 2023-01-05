@@ -9,19 +9,27 @@
 </head>
 <body>
   <div id="container">
-    <div id="nav">NAV</div>
+    <div id="nav"><div id="comment">
+      <img src="../../Configurations/tra2.jpg" alt="avatar" class="avatar">
+      <p><h2>Sign in to HospitalApp.</h2></p>
+    </div>
+    </div>
   <div id="logform">
     <form action="login.php" method="post" id="form">
-      <label for="username">Username:</label>
-      <input type="text" name="username" placeholder="username" required>
-      <br><br>
-      <label for="password">Password:</label>
-      <input type="password" name="password" placeholder="password" required>
-      <br><br>
-      <div>
-        <button id="log">Login</button>
+      <label for="username">Username or email address</label> 
+      <input type="text" id="user" name="username" required>
+      
+      <div id="pass">
+        <label for="password">Password</label>
+       <div id="forgot" ><a href="../ResetPassword/reset.html">Forgot password?</a></div> 
       </div>
-      <div><a href="../ResetPassword/reset.html">Forgot password?</a></div>
+      
+      <input type="password" id="password" name="password" required>
+    
+      <div id="logbutton">
+        <button id="log">Sign in</button>
+      </div>
+      
     </form>
   
   </div>

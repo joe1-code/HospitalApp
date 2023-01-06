@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <link rel="stylesheet" href="../../Configurations/hosp.css">
+ <link rel="stylesheet" href="login.css">
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,13 +9,21 @@
 </head>
 <body>
   <div id="container">
-    <div id="nav"><div id="comment">
-      <img src="../../Configurations/tra2.jpg" alt="avatar" class="avatar">
-      <p><h2>Sign in to HospitalApp.</h2></p>
+    <div id="nav">
+      <div id="avatarc">
+        <img src="hosptal.png" alt="avatar" class="avatar">
+      </div>
+    
+      
     </div>
+    <div id="comment">
+      <p>
+      <h2>Sign in to HospitalApp.</h2>
+      </p>
     </div>
-  <div id="logform">
-    <form action="login.php" method="post" id="form">
+
+   <div id="logform">
+     <form action="login.php" method="post" id="form">
       <label for="username">Username or email address</label> 
       <input type="text" id="user" name="username" required>
       
@@ -29,10 +37,11 @@
       <div id="logbutton">
         <button id="log">Sign in</button>
       </div>
-      
-    </form>
-  
-  </div>
+     </form>
+   </div>
+   <div id="regc">
+<div id="reg">New to HospitalApp? <a href="../RegisterUser/register.html">Create an account</a></div>
+   </div>
   </div>
   
     

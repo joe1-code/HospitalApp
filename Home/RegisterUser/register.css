@@ -1,112 +1,130 @@
-body{
- background: white;
- 
+body {
+  background: white;
+
 }
 
-#container{
- display: flex;
- flex-direction: column;
- justify-content: center;
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-#nav{
- width: 100%;
- height: 100px;
- display: flex;
- justify-content: center;
- background: blue;
+#nav {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  /*background: blue;*/
+  flex-direction: column;
+  
 }
-
-.avatar{
-width: 50px;
- height: 50px;
- border-radius: 50%;
- vertical-align: middle;
-}
-
-#regform{
- width: 100%;
- height: 500px;
- background: yellow;
- padding-bottom: 30px;
- display: flex;
- justify-content: center;
- 
-}
-
-#form{
+#avatadiv{
 display: flex;
-flex-direction: column;
 justify-content: center;
-padding-top: 20px;
-background: brown;
-width: 250px;
+margin-top: 20px;
+/*background: green;*/
+height: 40px;
+}
+#reghosp{
+display: flex;
+justify-content: center;
+height: 60px;
+padding-bottom: 10px;
 }
 
-#gender{
- display: flex;
- flex-direction: row;
- margin-bottom: 15px;
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  vertical-align: middle;
 }
 
-#fname{
- width: 100%;
- height: 27px;
- background: white snow;
- border-radius: 6px;
- margin-bottom: 15px;
+#regform {
+  width: 100%;
+  height: 500px;
+  /*background: yellow;*/
+  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  
+
 }
 
-#lname{
- width: 100%;
- height: 27px;
- background: white snow;
- border-radius: 6px;
- margin-bottom: 15px;
+#form {
+  background: whitesmoke;
+  width: 300px;
+  height: 500px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  border: black;
 }
 
-#dob{
- width: 100%;
- height: 27px;
- background: white snow;
- border-radius: 6px;
- margin-bottom: 15px;
+#gender {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
 }
 
-#location{
- width: 100%;
- height: 27px;
- background: white snow;
- border-radius: 6px;
- margin-bottom: 15px;
+#fname {
+  width: 100%;
+  height: 27px;
+  background: white snow;
+  border-radius: 6px;
+  margin-bottom: 15px;
 }
 
-#email{
- width: 100%;
- height: 27px;
- background: white snow;
- border-radius: 6px;
- margin-bottom: 15px;
+#lname {
+  width: 100%;
+  height: 27px;
+  background: white snow;
+  border-radius: 6px;
+  margin-bottom: 15px;
 }
 
-#phone{
- width: 100%;
- height: 27px;
- background: white snow;
- border-radius: 6px;
- margin-bottom: 15px;
+#dob {
+  width: 100%;
+  height: 27px;
+  background: white snow;
+  border-radius: 6px;
+  margin-bottom: 15px;
 }
 
-#password{
- width: 100%;
- height: 27px;
- background: white snow;
- border-radius: 6px;
- margin-bottom: 15px;
+#location {
+  width: 100%;
+  height: 27px;
+  background: white snow;
+  border-radius: 6px;
+  margin-bottom: 15px;
 }
 
-#reg{
- width: 100%;
+#email {
+  width: 100%;
+  height: 27px;
+  background: white snow;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+#phone {
+  width: 100%;
+  height: 27px;
+  background: white snow;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+#password {
+  width: 100%;
+  height: 27px;
+  background: white snow;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+#reg {
+  width: 100%;
   border-radius: 6px;
   height: 30px;
   margin-left: 3px;
@@ -116,6 +134,7 @@ width: 250px;
 }
 
 #reg:hover {
- background: rgb(46, 139, 46);
- cursor: pointer;
+  background: rgb(46, 139, 46);
+  cursor: pointer;
 }
+

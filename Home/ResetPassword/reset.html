@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <link rel="stylesheet" href="./reset.css">
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Document</title>
 </head>
 <body>
- <form action="reset.php" method="post">
-  
-  <div id="resetform">
-   <label for="user">Username:</label>
-   <input type="text" name="user" placeholder="Email" required>
-   <br><br>
-  </div>
-  <div>
-   <button id="">Submit</button>
+ <div id="container">
+   <div class="nav">
+     <div id="avatarc"><img src="../../Configurations/hosptal.png" alt="avatar" class="avatar"></div>
+     <div id="repass"><h2><p>Reset your password</p></h2></div>
+   </div>
+  <div class="resetform">
+    <form action="reset.php" method="post" class="form">
+    
+     <div id="resetform">
+      <div id="user">
+       <label for="user">Username</label>
+       <input type="text" name="user" placeholder="Email" id="email" required>
+      </div>
+      
+      <br><br>
+     </div>
+     <div id="sub">
+      <button id="sub">Submit</button>
+     </div>
+    
+    </form>
   </div>
 
- </form>
+ </div>
 </body>
 </html>

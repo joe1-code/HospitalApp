@@ -1,5 +1,5 @@
 <?php
-include '../Configurations/connection.php';
+include '../../Configurations/connection.php';
 
 #taking up inputs
 $firstname=$_REQUEST['fname'];

@@ -1,24 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+ <link rel="stylesheet" href="passreset.css">
  <meta charset="UTF-8">
  <meta http-equiv="X-UA-Compatible" content="IE=edge">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Document</title>
 </head>
 <body>
- <form action="passreset.php" method="post">
-  <div>
-   <label for="password">New Password:</label>
-   <input type="password" name="newpassword" placeholder="New Password" required>
-   <br><br>
-   <label for="confirmpassword">Confirm Password:</label>
-   <input type="password" name="confirmpassword" placeholder="Confirm Password" required>
-   <br><br>
+  <div id="container">
+   <div id="nav">
+   <div id="avatarc"><img src="../../Configurations/hosptal.png" alt="avatar" class="avatar"></div>
+   <div id="passreset"><h2><p>Reset your password</p></h2></div>
+   </div>
+   <div id="resetform">
+    <form action="passreset.php" method="post" id="form">
+    <div id="newc">
+     <label for="password">New Password</label>
+     <input type="password" name="newpassword" placeholder="New Password" id="new" required>
+    </div>
+    <div id="confirmc">
+     <label for="confirmpassword">Confirm Password</label>
+     <input type="password" name="confirmpassword" placeholder="Confirm Password" id="confirm" required>
+    </div>
+     
+     
+    
+    <div id="resetbut">
+     <button id="reset">Submit</button>
+    </div>
+   </form>
+
+   </div>
+
   </div>
-  <div>
-   <button id="reset">Submit</button>
-  </div>
- </form>
 </body>
 </html>
